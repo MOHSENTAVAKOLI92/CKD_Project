@@ -1,7 +1,5 @@
   # CKD_Project
 
-Mohsen Tavakoli Khabaz
-
 Project Title: Chronic Kidney Disease Data Analysis - A Comprehensive Diagnostic Study
 1. Project Overview
 •	The project aimed to assist nephrologists in diagnosing and managing CKD by analyzing patient data to identify significant indicators of CKD and develop a predictive model. This project was part of an internship with MedHealth Analytics, where you were tasked with delivering insights to improve clinical practices.
