@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c279f79-cec5-45d8-bddc-c2a94d29cee1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CKD_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckd_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckd_dashboard.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ckd_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ckd_best_model.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/ckd_best_model_with_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/cleaned_kidney_disease.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/kidney_disease.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/model_input_template.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_columns.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_dashboard_features.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ckd_class_distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckd_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/ckd_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckd_dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/ckd_dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckd_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/ckd_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ckd_best_model_with_features.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/data/ckd_best_model_with_features.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cleaned_kidney_disease.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/cleaned_kidney_disease.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/model_input_template.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/model_input_template.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MOHSENTAVAKOLI92&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MOHSENTAVAKOLI92/CKD_Project.git&quot;,
+    &quot;accountId&quot;: &quot;2f8ad648-36ad-4e32-9074-a88d95d24e34&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,7 +54,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.check_columns.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_dashboard_features.executor&quot;: &quot;Run&quot;,
     &quot;Python.ckd_analysis.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ckd_class_distribution.executor&quot;: &quot;Run&quot;,
     &quot;Python.ckd_model.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -89,15 +100,42 @@
       <workItem from="1731069036239" duration="265000" />
       <workItem from="1731069325207" duration="147000" />
       <workItem from="1731069529568" duration="1248000" />
-      <workItem from="1731088033496" duration="1197000" />
+      <workItem from="1731088033496" duration="4233000" />
+      <workItem from="1731098995367" duration="1149000" />
+      <workItem from="1731100265924" duration="373000" />
+      <workItem from="1731100855486" duration="1474000" />
+      <workItem from="1731242727637" duration="2146000" />
+      <workItem from="1731245984185" duration="230000" />
+      <workItem from="1731246246730" duration="421000" />
+      <workItem from="1731246704082" duration="654000" />
+      <workItem from="1731247393815" duration="378000" />
+      <workItem from="1731247837168" duration="135000" />
+      <workItem from="1731248001396" duration="298000" />
+      <workItem from="1731248360546" duration="1124000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding CKD project files">
+      <option name="closed" value="true" />
+      <created>1731089355226</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731089355227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding CKD project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding CKD project files" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CKD_Project$ckd_analysis.coverage" NAME="ckd_analysis Coverage Results" MODIFIED="1731065728290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CKD_Project$ckd_model.coverage" NAME="ckd_model Coverage Results" MODIFIED="1731069083726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CKD_Project$ckd_class_distribution.coverage" NAME="ckd_class_distribution Coverage Results" MODIFIED="1731101817717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CKD_Project$check_columns.coverage" NAME="check_columns Coverage Results" MODIFIED="1731102207991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CKD_Project$check_dashboard_features.coverage" NAME="check_dashboard_features Coverage Results" MODIFIED="1731102289883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CKD_Project$ckd_analysis.coverage" NAME="ckd_analysis Coverage Results" MODIFIED="1731247163732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CKD_Project$ckd_model.coverage" NAME="ckd_model Coverage Results" MODIFIED="1731248230135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
